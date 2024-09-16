@@ -1,0 +1,39 @@
+#author: Anochili Blessing Ebele
+#date: 16/09/2024
+#purpose: this mad libs game program. Mad Libs is a classic word game where players fill in the blanks of a story with random words, creating a silly and often nonsensical narrative.
+
+print("welcome to mad libs game.  In this game you are required to enter 5 adjectives, 4 verbs, 3 adverbs, 4 nouns, 1 conjuction and 1 preposition.")
+print("this game is meant to lighten up your day. have fun!")
+
+#collecting user input
+user_noun1 = str(input("enter first NOUN of your choice: "))
+user_verb1 = str(input("Enter your first VERB: "))
+user_noun3 = str(input("enter third NOUN of your choice: "))
+user_adjective1 = (input("Enter your first ADJECTIVE: "))
+user_adverb1 = str(input("Enter your first ADVERB: "))
+user_verb2 = str(input("Enter your second VERB: "))
+user_adjective2 = str(input("Enter your second ADJECTIVE: "))
+user_noun2 = str(input("enter second NOUN of your choice: "))
+user_adjective3 = str(input("Enter your third ADJECTIVE: "))
+user_verb3 = str(input("Enter your third VERB: "))
+user_preposition = str(input("Enter a PREPOSITION: "))
+user_verb4 = str(input("Enter your fourth VERB: "))
+user_adjective4 = str(input("Enter your fourth ADJECTIVE: "))
+user_conjuction = str(input("Enter a CONJUCTION: "))
+user_adjective5 = str(input("Enter your fifth ADJECTIVE: "))
+user_adverb2 = str(input("Enter your second ADVERB: "))
+user_noun4 = str(input("enter fourth NOUN of your choice: "))
+user_adverb3 = str(input("Enter your third ADVERB: "))
+
+#using the conditional statement
+print("Once upon a", user_adjective1, 'afternoon, I decided to', user_verb1, 'to the grocery store.')
+print("As I arrived, I accidentally",  user_adverb1, 'bumped into a',  user_adjective2, 'tomato wearing a hat.') 
+print('The tomato said, "Watch out! I’m about to"', user_verb2, 'to the',  user_noun1,"!")
+
+print("Confused but",  user_adjective3, 'I followed the tomato', user_preposition,  'the cereal aisle, where it began to', user_verb3 , user_adverb2, 'with the boxes of frosted', user_noun2)
+print("I couldn't help but laugh loudly", user_adverb3, 'because,' 'honestly,' "who wouldn't?")
+
+
+print("Suddenly, ", user_adjective4, 'potato jumped in and shouted, "We need more',  user_noun3,'!'" The tomato replied, "'Yes, but only if we can', user_verb4, 'to the', user_noun4, 'aisle',  user_conjuction)
+
+print('That’s when I knew, this was going to be the', user_adjective5,  "shopping trip of my life!")
